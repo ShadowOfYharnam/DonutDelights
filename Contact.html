@@ -65,16 +65,16 @@
                </div>
              <div class="col-md-4">
                <p>Please enter your information to get into contact with you later.</p>
-               <form action="https://formspree.io/cis152finalproject@mailinator.com" method="POST">
+               <form action="https://formspree.io/cis152finalproject@mailinator.com" method="POST" id="contactInfo">
                <input type="hidden" name="_next" value="http://shadowofyharnam.github.io/DonutDelights/thanks.html" />
                         <div class="form-group">
                             <label for="name"> Name: </label>
-                            <input type="text" class="form-control"  placeholder="Name" name="name"/>
+                            <input type="text" class="form-control"  placeholder="Name" name="name" required/>
                         </div>
           
                         <div class="form-group">
                             <label for="email"> Email: </label>
-                            <input type="text" class="form-control" placeholder="Email"  name="email"/>
+                            <input type="text" class="form-control" placeholder="Email"  name="email" required/>
                         </div> 
                                                    
                             <button type="submit" class="btn btn-default"> Submit </button>
@@ -92,7 +92,7 @@
                <div class="row">
                    <div class="col-md-12">
                        <a href="https://www.facebook.com/donutdelights/?fref=ts">
-                       <img src="img\Facebook_icon.jpg" width="75" height="50" alt="Facebook Icon">
+                       <img src="img\Facebook_icon.jpg" alt="Facebook Icon">
                        <p>Click on the photo or here to travel to our Facebook page</p>
                        </a>
                        <!--couldnt find the correct 
